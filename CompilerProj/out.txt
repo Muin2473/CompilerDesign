@@ -1,0 +1,54 @@
+
+var_o is already declared!
+
+var_n is already declared!
+
+Valid declaration
+
+(var_m) Value of the variable: 8	
+
+(var_n) Value of the variable: 4	
+
+var_x Not declared yet!
+
+Value after increment: 9
+
+Value of expression: 9
+
+Value of expression: 13
+
+Value of expression: 23
+
+Condition value '0' in IF block
+
+Value of expression in IF: 64
+
+Value of expression in ELSE: 13
+
+Value of expression nested IF: 10
+
+Value of expression in first IF: 15
+
+value of expression in elseIF: 7
+
+This is a 'for loop' statement
+
+This is a 'for loop' statement
+
+This is a 'for loop' statement
+
+This is a 'for loop' statement
+
+Value of the expression: 6
+
+While LOOP: 0 1 2 3 4 5 
+Value of the expression: 7
+
+Case No : 2  and Result :  5
+This is a 'switch case'.
+
+Single line comment successful
+
+Multiple line comment done
+
+Congratulations! Compilation Successful :D

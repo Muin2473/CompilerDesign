@@ -1,0 +1,76 @@
+action main rbo rbc
+cbo
+	Integer  var_m ,,  var_n ,, var_o ,, var_o ,, var_n ;;
+	
+	var_m ~= 8 ;;
+	var_n~= 4 ;;
+	var_x ~= 8 ;;
+	
+	inc+ 8 inc+ ;;
+	
+	1 sum 12 div 4 mul 4 ;;
+	
+	18 sub 15 sum 8 div 2 mul 5 ;;
+	
+	checkIf rbo 5 sum 3 sub 8 rbc
+		cbo
+			12 sum 8 div 2 ;;
+		cbc
+		
+	checkIf rbo 5 sum 8 rbc
+		cbo
+			4 exp 3 ;;
+		cbc
+
+	checkIf rbo 7 lt 5 rbc
+		cbo
+		
+			2 sum 7 sum 6 mul 2 sub 18 div 3 ;;
+		cbc
+		Ifnot
+		cbo
+			6 sum 8 div 4 sum 2 mul 3 sub 1 ;;
+		cbc
+				checkIf rbo 7 gt 5 rbc
+		cbo
+					checkIf rbo 7 gt 5 rbc
+			cbo
+					2 sum 2 mul 4 ;;
+			cbc
+			Ifnot
+			cbo
+				3 sum 8 div 4 sum 2 mul 3 sub 1 ;;
+			cbc
+			2 sum 7 sum 6 mul 2 sub 18 div 3 ;;
+		cbc
+	Ifnot
+		cbo
+			6 sum 8 div 4 sum 2 mul 3 sub 1 ;;
+		cbc
+		
+	checkIf rbo 7 lt 5 rbc
+		cbo
+			2 sum 7 sum 6 mul 2 sub 18 div 3 ;;
+		cbc
+	elseIf rbo 2 gt 1 rbc
+		cbo
+			3 sum 4 mul 2 div 2 ;;
+		cbc 
+	Ifnot
+		cbo
+			6 sum 8 div 4 sum 2 mul 3 sub 1 ;;
+		cbc		
+		
+	since rbo 2 : 6 rbc cbo 4 sum 2 cbc
+
+	untill rbo 0 gt 5 rbc cbo 4 sum 3 cbc
+
+	shift rbo 2 rbc cbo event 1 : 4 sum 2 ;; event 2 : 3 sum 2 ;; cbc
+	
+	# I'm a CSE undergraduate from KUET.
+	...
+	KUET is one of the finest institution in Bangladesh.
+	I'm proud of my Alma mater :)
+	...
+
+cbc
